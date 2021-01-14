@@ -7,9 +7,12 @@ class Directory extends React.Component{
         super();
 
         this.state = {
-          sections: [{"id":"259","name":"Raspberry Mineral Water",
+          sections: [
+          {"id":"259",
+          "name":"Raspberry Mineral Water",
           "description":"An 8-ounce serving of our refreshing H+ Sport raspberry mineral water fulfills a day's nutritional requirements for over 12 vitamins and minerals.",
           "image_title":"mineral-water-raspberry_600px",
+          "linkUrl": "shop",
           "image":"https://hplussport.com/wp-content/uploads/2015/12/mineral-water-raspberry_600px.png"},
           {"id":"429",
           "name":"Strawberry Mineral Water",
@@ -125,8 +128,8 @@ class Directory extends React.Component{
         return( 
           <div className='directory-menu'>
               {
-                  this.state.sections.map(({id, name, image, size}) => (
-                      <MenuItem key={id} title={name} imageUrl={image} size={size}/>
+                  this.state.sections.map(({id, name, image, size, linkUrl}) => (
+                      <MenuItem key={id} title={name} imageUrl={image} size={size} linkUrl={linkUrl} />
                   ))
               }
           </div>
