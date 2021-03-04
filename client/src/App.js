@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
-import './App.css';
+// import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
 import SignInsignUp from './pages/signInSignUp/signInSignUp.component';
+
+import { GlobalStyle } from './global.styles';
 
 import { connect } from 'react-redux';
 
@@ -21,6 +23,7 @@ const App = ({ checkUserSession, currentUser }) => {
   
     return (
       <div>
+        <GlobalStyle />
         <Header />
         <Switch>
           <Route exact path='/' component={HomePage} />
