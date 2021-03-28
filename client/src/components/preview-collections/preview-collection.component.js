@@ -8,8 +8,8 @@ const PreviewCollection = ({ title, items }) => (
     <TitleContainer className='title'>{title.toUpperCase()}</TitleContainer>
     <PreviewContainer className='preview'>
         {
-            items.filter((item, idx) => idx < 4).map(item => (
-                <CollectionItem key={item.id} item={item} />
+            items.filter((item, idx) => idx < 4).map((item, keyid) => (
+                <CollectionItem key={keyid} item={item} />
             ))
         }
     </PreviewContainer>  

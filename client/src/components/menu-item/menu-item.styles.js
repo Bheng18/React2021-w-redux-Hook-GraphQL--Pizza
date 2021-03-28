@@ -43,6 +43,7 @@ export const BackgroundImageContainer = styled.div`
 
 export const ContentContainer = styled.div`
   height: 90px;
+  /* width: 90%; */
   padding: 0 25px;
   display: flex;
   flex-direction: column;
@@ -56,6 +57,10 @@ export const ContentContainer = styled.div`
   @media screen and (max-width: 800px) {
     width: 25%;
   }
+
+  @media screen and (max-width: 460px) {
+    width: 45%;
+  }
 `;
 
 export const ContentTitle = styled.span`
@@ -65,14 +70,14 @@ export const ContentTitle = styled.span`
   color: #4a4a4a;
 
   @media screen and (max-width: 460px) {
-   font-size: x-small;
+   /* font-size: x-small; */
   }
 `;
 
 export const ContentSubtitle = styled.span`
-  font-weight: lighter;
+  /* font-weight: lighter; */
   
   @media screen and (max-width: 460px) {
-   font-size: x-small;
+   /* font-size: x-small; */
   }
 `;
