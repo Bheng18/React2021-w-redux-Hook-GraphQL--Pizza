@@ -8,7 +8,7 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
         <BackgroundImageContainer className='background-image' style={{ backgroundImage: `url(${imageUrl})` }} />
         <ContentContainer className='content'>
             <ContentTitle>{title.toUpperCase()}</ContentTitle>
-              <ContentSubtitle>SHOP NOW</ContentSubtitle>
+              {/* <ContentSubtitle>SHOP NOW</ContentSubtitle> */}
         </ContentContainer>
     </MenuItemContainer>
 );

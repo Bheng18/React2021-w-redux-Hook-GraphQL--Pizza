@@ -21,7 +21,7 @@ export const CollectionItemContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    width: 40vw;
+    width: 60vw;
 
     &:hover {
       .image {
@@ -51,7 +51,7 @@ export const AddButton = styled(CustomButton)`
 `;
 
 export const BackgroundImage = styled.div`
-  width: 90%;
+  width: 100%;
   height: 90%;
   background-size: cover;
   background-position: center;

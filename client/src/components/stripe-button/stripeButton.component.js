@@ -27,7 +27,7 @@ const onToken = token => {
   return (
     <StripeCheckout
       label='Pay Now'
-      name='Yhiel Pizza'
+      name='Family Pizza House'
       billingAddress
       shippingAddress
       image={'https://hplussport.com/wp-content/uploads/2016/12/In-the-Kitchen-with-H-book-cover.png'}
