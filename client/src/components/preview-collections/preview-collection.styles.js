@@ -22,8 +22,11 @@ export const PreviewContainer = styled.div`
   display: flex;
   justify-content: space-between;
   @media screen and (max-width: 800px) {
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr;
+    display: flex;
+    width: 100%;
+    /* flex-direction: row; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 15px; */
   }
 `;

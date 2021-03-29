@@ -21,7 +21,11 @@ export const CollectionItemContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    width: 60vw;
+    /* width: 90vw; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
       .image {

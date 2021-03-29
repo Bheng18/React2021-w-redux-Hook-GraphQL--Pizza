@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
         /* font-family: 'Indie Flower', cursive;  */
         /* font-family: 'PT Sans', sans-serif; */
         font-family: 'Open Sans Condensed', sans-serif;
-        margin-left: 20px;
+        margin: 10px;
 
         @media screen and (max-width: 800px) {
           padding: 10px;
