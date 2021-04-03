@@ -14,7 +14,8 @@ const Header = ({ currentUser, hidden, signOut }) => (
     <HeaderContainer>
             <LogoContainer to='/'>
                 {/* <Logo className='logo' /> */}
-                <img src={'https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.0-9/142070168_4965469276861771_4467183683439937407_o.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=y8qqXgJeOAAAX-qZR_g&_nc_ht=scontent.fmnl3-1.fna&oh=0c977d877f917ddb520f5ac8bb59f24e&oe=6065113D'}
+                
+                <img src={'https://scontent.fmnl6-2.fna.fbcdn.net/v/t1.6435-9/142070168_4965469276861771_4467183683439937407_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=vnBgImexexEAX_NWZb4&_nc_ht=scontent.fmnl6-2.fna&oh=8598d86047b1ec210267d29b820bb8a8&oe=608C8270'}
                     style={{ width: '60px', borderRadius: '50%' }}
                     alt='Logo'
                 />
