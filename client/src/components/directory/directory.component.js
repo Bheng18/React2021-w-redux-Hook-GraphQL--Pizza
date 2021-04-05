@@ -8,8 +8,18 @@ import './directory.styles.scss';
 const Directory = ({ sections }) => ( 
     <div className='directory-menu'>
         {
-            sections.map(({id, name, image, size, linkUrl}) => (
-                <MenuItem key={id} title={name} imageUrl={image} size={size} linkUrl={linkUrl} />
+            sections.map(({id, name, image, size, linkUrl, large, medium, priceLarge, priceMedium }) => (
+                <MenuItem 
+                    key={id} 
+                    title={name} 
+                    imageUrl={image} 
+                    size={size} 
+                    linkUrl={linkUrl} 
+                    large={large} 
+                    medium={medium} 
+                    priceLarge={priceLarge}
+                    priceMedium={priceMedium}
+                />
             ))
         }
     </div>

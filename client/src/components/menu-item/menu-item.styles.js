@@ -5,6 +5,7 @@ export const MenuItemContainer = styled.div`
 	min-width: 30%;
 	overflow: hidden;
 	flex: 1 1 auto;
+  flex-direction: column;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -42,7 +43,7 @@ export const BackgroundImageContainer = styled.div`
 `;
 
 export const ContentContainer = styled.div`
-  height: 90px;
+  /* height: 90px; */
   /* width: 90%; */
   padding: 0 25px;
   display: flex;
@@ -51,8 +52,8 @@ export const ContentContainer = styled.div`
   justify-content: center;
   border: 1px solid black;
   background-color: white;
-  opacity: 0.7;
-  position: absolute;
+  opacity: 0.9;
+  /* position: absolute; */
 
   @media screen and (max-width: 800px) {
     width: 25%;
@@ -80,4 +81,38 @@ export const ContentSubtitle = styled.span`
   @media screen and (max-width: 460px) {
    /* font-size: x-small; */
   }
+`;
+
+export const SizeContainer = styled.div`
+    width: 80%;
+    height: 20%;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+
+    @media screen and (max-width: 460px) {
+      padding-top: 0;
+   /* font-size: x-small; */
+  }
+`;
+
+export const MediumContent = styled.div`
+    display: flex;
+    flex-direction: row;
+`;
+
+export const LargeContent = styled.div`
+    display: flex;
+    flex-direction: row;
+`;
+
+export const SizeName = styled.span`
+  width: 90%;
+  /* margin-bottom: 5px; */
+`;
+
+export const PriceName = styled.span`
+  /* width: 10%; */
+  /* text-align: right; */
 `;

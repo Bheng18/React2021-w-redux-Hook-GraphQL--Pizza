@@ -64,7 +64,7 @@ export const BackgroundImage = styled.div`
 `;
 
 export const CollectionFooterContainer = styled.div`
-  width: 80%;
+  width: 100%;
   height: 5%;
   display: flex;
   flex-direction: row;
@@ -73,8 +73,30 @@ export const CollectionFooterContainer = styled.div`
 `;
 
 export const NameContainer = styled.span`
-  width: 90%;
+  width: 60%;
   /* margin-bottom: 5px; */
+`;
+
+export const SizeContainer = styled.div`
+  width: 40%;
+  display: flex;
+  flex-direction: column; 
+`;
+
+export const SizeName = styled.div`
+   
+`;
+
+export const MediumStyle = styled.div`
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+`;
+
+export const LargeStyle = styled.div`
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
 `;
 
 export const PriceContainer = styled.span`
