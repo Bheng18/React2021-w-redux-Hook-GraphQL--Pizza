@@ -63,7 +63,7 @@ const INITIAL_STATE = {
         "image":"https://scontent.fcrk3-1.fna.fbcdn.net/v/t1.0-9/158006554_155302616431085_430102889770117573_o.jpg?_nc_cat=103&ccb=1-3&_nc_sid=8bfeb9&_nc_eui2=AeFRBcimSCC_avWoXx_KTDnAYCHbjpGnRtFgIduOkadG0Zy2laoO07kE4GxQaS-ema__T-pcZpejWaeFCaTe9SNl&_nc_ohc=hfLUFQDKNCsAX98wFRR&_nc_ht=scontent.fcrk3-1.fna&oh=722622861a48104433dd34bdbd85a64f&oe=608222A4",
         "large": "14-inches",
         "medium": "10-inches",
-        "priceLarge": "289",
+        "priceLarge": "260",
         "priceMedium": "140"    
         },
         {"id":"440",
