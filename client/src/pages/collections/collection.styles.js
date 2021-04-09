@@ -17,11 +17,30 @@ export const CollectionItemsContainer = styled.div`
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 
   @media screen and (max-width: 800px) {
      display: flex;
      flex-direction: row;
+     justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: 1fr;
+      grid-gap: 10px; */
+  }
+
+  @media screen and (max-width: 650px) {
+     /* display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-right: 10px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+  }
+
+  @media screen and (max-width: 550px) {
+     display: flex;
+     flex-direction: column;
     /* display: grid;
     grid-template-columns: 1fr;
       grid-gap: 10px; */

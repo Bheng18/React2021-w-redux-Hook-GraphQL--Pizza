@@ -16,11 +16,11 @@ const CollectionItem = ({ item, addItem }) => {
         <SizeContainer>
            <MediumStyle>
               <SizeName>{medium}</SizeName>
-              <PriceContainer>&#x20B1;{mediumPrice}</PriceContainer>
+              <PriceContainer>{mediumPrice ? <span>&#x20B1;{mediumPrice}</span> : ''}</PriceContainer>
            </MediumStyle>
            <LargeStyle>
               <SizeName>{large}</SizeName>
-              <PriceContainer>&#x20B1;{largePrice}</PriceContainer>
+              <PriceContainer>{largePrice ? <span>&#x20B1;{largePrice}</span> : ''}</PriceContainer>
            </LargeStyle>
         </SizeContainer>
       </CollectionFooterContainer>

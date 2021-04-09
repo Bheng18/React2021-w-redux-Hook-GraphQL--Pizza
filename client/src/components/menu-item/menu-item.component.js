@@ -24,11 +24,11 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match, large, mediu
         <SizeContainer>
             <MediumContent>
                 <SizeName>{large}</SizeName>
-                <PriceName>&#x20B1;{priceLarge}</PriceName>
+                <PriceName>{priceLarge ? (<span>&#x20B1;{priceLarge}</span>) : ''}</PriceName>
             </MediumContent>
             <LargeContent>
                 <SizeName>{medium}</SizeName>
-                <PriceName>&#x20B1;{priceMedium}</PriceName>
+                <PriceName>{priceMedium ? (<span>&#x20B1;{priceMedium}</span>) : ''}</PriceName>
             </LargeContent>
         </SizeContainer>
     </MenuItemContainer>
